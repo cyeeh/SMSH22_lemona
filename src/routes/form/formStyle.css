@@ -1,0 +1,82 @@
+
+.form_outer {
+    display: flex;
+}
+.form_container {
+    width: 60vw;
+    margin: 0 auto;
+}
+.titleDiv {
+    width: 100%;
+    text-align: left;
+    flex-direction: column;
+}
+.titlewithUpload {
+    width: 100%;
+    flex-direction: row;
+
+    display: flex;
+}
+.mainTitle {
+    width: auto;
+    font-size: 20px;
+    margin: 30px 0;
+}
+.mainDisc{
+    font-size: 14px;
+    margin: 0 0 70px 0;
+}
+.input_p {
+    width: 100%;
+}
+
+.input_member{
+    display: flex;
+}
+.member_title {
+    width: auto;
+    margin: 5px 10px 10px 10px;
+}
+.contentsTitle{
+    width: 100%;
+    margin:  5px 10px;
+}
+
+.input_title{
+    width: 100%;
+    margin: 5px 10px 50px 10px;
+}
+.txt_memberCon {
+    margin: 10px 0 50px 10px;
+    display: flex;
+}
+.txt_member {
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #87cdee;
+    margin: 0 0 0 10px;
+}
+.txt_tag {
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #FFFC91;
+
+    margin: 0 0 0 10px;
+}
+.input_intro {
+    margin: 5px 10px;
+}
+.tag_List {
+    margin: 10px 0 50px 10px;
+    display: flex;
+}
+.attatchment {
+    max-width: 50vw;
+    margin: 10px auto 50px auto;
+}
+.attachIMG {
+    max-width: 100%;
+}
+.CKE {
+    margin: 20px 10px 50px 10px;
+}

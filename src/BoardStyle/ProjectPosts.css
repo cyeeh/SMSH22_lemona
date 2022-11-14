@@ -1,0 +1,99 @@
+@media all and (min-width: 1024px) {
+    .card-wrapper {
+      width: 400px;
+      height: 300px;
+    }
+    .card-wrapper:hover {
+      width: 410px;
+      height: 310px;
+      box-shadow: rgba(0, 0, 0, 0.9) 0px 22px 70px 4px;
+    }
+  }
+  @media all and (max-width: 1024px) {
+    .card-wrapper {
+      width: 370px;
+      height: 240px;
+    }
+    .card-wrapper:hover {
+      width: 380px;
+      height: 250px;
+      box-shadow: rgba(0, 0, 0, 0.9) 0px 22px 70px 4px;
+    }
+  }
+  @media all and (max-width: 768px) {
+    .card-wrapper {
+      width: 340px;
+      height: 280px;
+    }
+    .card-wrapper:hover {
+      width: 350px;
+      height: 290px;
+      box-shadow: rgba(0, 0, 0, 0.9) 0px 22px 70px 4px;
+    }
+  }
+  .card-wrapper {
+    text-align: left;
+    flex-shrink: 0;
+    margin: 15px;
+    padding: 1.5%;
+    border-radius: 10px;
+    font-family: "Noto Sans KR", sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: width 1s, height 1s, box-shadow 1s;
+    cursor: pointer;
+  }
+  .card-wrapper .card-body {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  .card-wrapper .card-body-img {
+    width: 100%;
+    height: 100%;
+  }
+  .card-wrapper .card-body-img img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .card-wrapper .card-body-text {
+    flex-grow: 1;
+    word-break: break-all;
+    overflow: auto;
+    color: #282c34;
+    padding: 0.6rem;
+  }
+  .card-wrapper .card-body-text::-webkit-scrollbar {
+    display: none;
+  }
+  .card-wrapper .card-title {
+    font-size: 1.5rem;
+    color: darkslategray;
+    font-weight: bold;
+  }
+  .card-wrapper .card-footer {
+    border-top: 0.5px solid lightgray;
+    padding: 0.6rem;
+    font-weight: 200;
+    display: flex;
+    color: #282c34;
+    font-size: 0.9rem;
+    justify-content: space-between;
+  }
+
+  a:link { 
+    text-decoration: none;
+   }
+    
+   a:visited { 
+    text-decoration: none;
+   }
+    
+   a:hover { 
+    text-decoration: none;
+   }
